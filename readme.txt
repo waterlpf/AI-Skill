@@ -69,3 +69,12 @@ linux 使用 Unix Makefiles 编译参数参考 -G "Unix Makefiles"
 
 3 
 请针对技能 project-compiler 生成技能说明文档和操作文档
+
+4) show 
+创建项目 project2 
+build project2
+
+5) 
+├── build/                 # 构建输出目录
+├── build/bin                 # 可执行文件目录
+├── build/lib                 # 库输出目录

@@ -1,8 +1,8 @@
 cmake_minimum_required(VERSION 3.10)
 project(ProjectName VERSION 1.0.0 LANGUAGES CXX)
 
-# 设置C++标准
-set(CMAKE_CXX_STANDARD 14)
+# 设置C++标准 (C11)
+set(CMAKE_CXX_STANDARD 11)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
 # 输出目录
@@ -19,6 +19,3 @@ add_subdirectory(src)
 # 测试
 enable_testing()
 add_subdirectory(tests)
-
-# 可选：添加文档
-# add_subdirectory(docs)

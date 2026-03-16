@@ -74,7 +74,14 @@ linux 使用 Unix Makefiles 编译参数参考 -G "Unix Makefiles"
 创建项目 project2 
 build project2
 
-5) 
+5) 完善技能 project-structure-creator 
+要求生成的目标在指定目录中 
 ├── build/                 # 构建输出目录
 ├── build/bin                 # 可执行文件目录
 ├── build/lib                 # 库输出目录
+
+6）完善技能 project-structure-creator  要求使用c14以下
+
+show
+创建项目 project3 
+build project3

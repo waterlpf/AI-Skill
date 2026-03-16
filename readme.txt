@@ -39,3 +39,33 @@ e:/AI-Skill/project
 文档	内容
 SKILL_DOC.md	技能概述、功能特性、触发方式、配置选项、模板说明、常见问题
 OPERATION.md	快速开始、操作示例、构建指南、自定义配置、故障排除
+
+-----------------------
+
+创建项目编译技能包  
+技能包要求如下：
+
+项目目录默认为 project
+
+## windows 编译  
+ 
+cd project/build
+cmake .. -G "MinGW Makefiles" -DCMAKE_BUILD_TYPE=Release 
+mingw32-make.exe -j8 
+
+## linux 编译 
+cd project/build
+cmake .. -G "Unix Makefiles" -DCMAKE_BUILD_TYPE=Release 
+make -j8 
+
+-----------------------
+
+检查项目编译技能包 project-compiler 
+要求不要添加环境变量 
+window 使用  mingw 编译参数 参考  -G "MinGW Makefiles"
+linux 使用 Unix Makefiles 编译参数参考 -G "Unix Makefiles"
+目前windows环境  没有编译成功  请检查技能 project-compiler 是否严格按照上述要求编译项目 
+
+
+3 
+请针对技能 project-compiler 生成技能说明文档和操作文档

@@ -33,3 +33,9 @@ e:/AI-Skill/project
 创建一个C++项目结构 项目根目录为 Project2
 
 请针对技能 project-structure-creator 生成技能说明文档和操作文档
+
+
+技能描述  文档内容
+文档	内容
+SKILL_DOC.md	技能概述、功能特性、触发方式、配置选项、模板说明、常见问题
+OPERATION.md	快速开始、操作示例、构建指南、自定义配置、故障排除

@@ -70,9 +70,12 @@ linux 使用 Unix Makefiles 编译参数参考 -G "Unix Makefiles"
 3 
 请针对技能 project-compiler 生成技能说明文档和操作文档
 
+
+
 4) show 
-创建项目 project2 
-build project2
+
+使用 project-structure-creator 技能  项目根目录为 project3
+build project3
 
 5) 完善技能 project-structure-creator 
 要求生成的目标在指定目录中 
